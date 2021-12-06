@@ -1,0 +1,30 @@
+{
+  "name": "clean-code-architecture-t4",
+  "version": "1.0.0",
+  "description": "Curso Clean Achitecture Turma 4 - Rodrigo Branas",
+  "main": "index.js",
+  "scripts": {
+    "tsc:init": "tsc --init",
+    "build": "tsc",
+    "test": "tsc && jest dist/",
+    "coverage": "tsc && jest ./dist --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaolinam/clean-code-architecture-t4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaolinam/clean-code-architecture-t4/issues"
+  },
+  "homepage": "https://github.com/shaolinam/clean-code-architecture-t4#readme",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.3.1"
+  }
+}
